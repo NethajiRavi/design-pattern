@@ -1,0 +1,17 @@
+package com.designpattern.structuralPattern.compositePattern.solution;
+
+public class File implements FileSystemComponent {
+
+
+    private String fileName;
+
+    public File(String fileName) {
+        this.fileName = fileName;
+    }
+
+    @Override
+    public void showDetails() {
+        System.out.println("File :" + fileName);
+
+    }
+}
